@@ -12,6 +12,19 @@ Cambot is a project for AI course at University of Wroclaw.
 It was created by [me](https://github.com/matbaj) and [Keicam](https://github.com/Keicam).
 All Sources can be found [here](https://github.com/matbaj/cambot).
 
+###Features###
+
+This project is still in begining state and it has big possibility to evolve.
+Current features that are implemented:
+
+* It has interactive command line
+* It can recognise voice
+* It can say result of query
+* check mails (reads unreaded mail snippets)
+* check callendar (reads 10 next meetings)
+* check weather
+* control camera
+* say yes/no with camera
 
 ###Preparation###
 
