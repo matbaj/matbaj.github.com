@@ -50,4 +50,35 @@ We tested it on Arch linux and Ubuntu so it shouldn't be problem with only choos
 
 
 
+###Building stand###
 
+First what You will need to do it will be setup Pan/Tilt Bracket.
+Instruction is included in kit but in case You lost it or something happen You can find it [here](https://www.sparkfun.com/datasheets/Robotics/Other/sensor%20pan%20tilt%20manual.jpg)
+
+Next step it will be connecting somehow camera to this stand.
+I used zip straps to do this In way that is shown in picture below
+
+![Camera stand](/img/article-cambot-camera.jpg)
+
+After connecting camera You need to have stable stand.
+In my case I used box from kit that I bought.
+I made hole for servo on top of that box and I put inside Arduino uno (exactly it's equivalent).
+Other cables You can put just like on this picture
+
+![Box](/img/article-cambot-box.jpg)
+
+Sketch for arduino You can find in repository at arduino/tilt.ino.
+If You don't know how to upload arduino sketches I would prefer to send You to arduino getting started article.
+
+Connecting pins to arduino:
+
+|  Arduino      | destination   |
+|:-------------:|:-------------:|
+| VCC           | Servo 1 RED   |
+| VCC           | Servo 2 RED   |
+| GND           | Servo 1 BROWN |
+| GND           | Servo 2 BROWN |
+| PIN 9         | Servo 2 ORANGE|
+| PIN 10        | Servo 1 ORANGE|
+
+Where Servo 1 is the servo partially in box and it's for X axis and Servo 2 is Y axis
