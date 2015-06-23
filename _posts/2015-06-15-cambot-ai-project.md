@@ -82,3 +82,26 @@ Connecting pins to arduino:
 | PIN 10        | Servo 1 ORANGE|
 
 Where Servo 1 is the servo partially in box and it's for X axis and Servo 2 is Y axis
+
+
+###Getting sources and running app###
+
+You will need install:
+
+* pywapi (arch: yaourt -S aur/python2-pywapi)
+* SpeechRecognition (arch: pip2 install SpeechRecognition)
+* httplib2 (arch: yaourt -S community/python2-httplib2)
+* googleapiclient (arch: yaourt -S community/python2-google-api-python-client)
+* dateutil (arch: yaourt -S community/python2-dateutil)
+* opencv (arch: yaourt -S extra/opencv)
+* numpy (arch: yaourt -S python2-numpy)
+* pyaudio (arch: yaourt -S aur/python2-pyaudio)
+* espeak (arch: yaourt -S espeak)
+
+After You install this You will need create application on google dev website and download
+json.
+Better instruction You will find here:
+["https://developers.google.com/api-client-library/python/start/get_started"](https://developers.google.com/api-client-library/python/start/get_started)
+When You get this file. Put it in directory with project.
+
+That's all. You should be able to run this application and have fun interacting with it :)
