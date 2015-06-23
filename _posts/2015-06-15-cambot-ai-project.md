@@ -101,7 +101,9 @@ You will need install:
 After You install this You will need create application on google dev website and download
 json.
 Better instruction You will find here:
+
 ["https://developers.google.com/api-client-library/python/start/get_started"](https://developers.google.com/api-client-library/python/start/get_started)
-When You get this file. Put it in directory with project.
+
+When You get this file put it in directory with project.
 
 That's all. You should be able to run this application and have fun interacting with it :)
