@@ -13,24 +13,29 @@ It was created by [me](https://github.com/matbaj) and [Keicam](https://github.co
 All Sources can be found [here](https://github.com/matbaj/cambot).
 
 ###Project description###
-Our main goal was to create interactive assistant which is very easy to expand to new features
+Our main goal was to create interactive assistant which is very easy to expand to new features.
 We created seperated components which are responsible.
+
 We decided to use python because it is very easy to learn and it easy to prototype because it has dynamic typing.
 The big adventage of python is that it already has a lot of plugins and addons which has already implemented things.
 As operating system to run this application we choosed GNU/Linux because it runs on normal computers and embedded devices like raspberry pi
 We tried to use as much as possible external programs which helps us to get our goal.
+
 For speech recognision we use module SpeechRecognition which base on google speech recognision system.
 It's very easy to use and it very good because it has already big dictionary.
 We tried to use sphinx but it was very hard to get things running and we had very poor results.
 SpeechRecognition is not perfect module because it contains some loops where condition is just "True" and this lock thread.
 We created our own thread and pack this module code there to get more control on it.
+
 Regarding Text to speach we are using espeak. It's very simple and it gives as that what we need.
 In this project we have also face recognision. Python had a lot of very good examples of using opencv.
 This was very easy to implement this in our project.
+
 Regarding camera holder. We tried to use stuff that are very cheap and very easy to built.
 We tried to keep it as easy as it possible. To control arduino we used simply echo scirpt.
 When serial device is not initialized then this needs to be initialized somehow.
 For this pourpuse we are using minicom. Just open this serial with minicom and leave window somewhere behind.
+
 Camera that we used is Sony Eye camera for PS3. We used this because it was designed to do this stuff and
 I had only this camera at that time on my flat.When You noticed some problems with recognision then please
 check if in room that You are using this device there is enough light.
